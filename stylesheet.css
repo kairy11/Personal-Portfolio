@@ -158,3 +158,56 @@ nav .container {
     transform: translateY(-4px);
     cursor: default;
 }
+
+.featured-projects {
+    padding: 6rem 1.5 rem;
+}
+
+.featured-projects h3 { 
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (280px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card h4 {
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.project-card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.project-card a { 
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: #1a73e8;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.project-card a:hover {
+    background-color: #1558b0;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
