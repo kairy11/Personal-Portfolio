@@ -408,13 +408,15 @@ footer a:hover {
         max-width: 220px;
     }
 
-    .nav-links { 
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5rem 0.9rem;
+        font-size: 0.95rem;
     }
 
-    .hero h2 { 
+    .hero h2 {
         font-size: 1.6rem;
     }
 
@@ -422,13 +424,13 @@ footer a:hover {
         font-size: 1rem;
     }
 
-    .hero-button { 
+    .hero-button {
         width: 100%;
         flex-direction: column;
         align-items: stretch;
     }
 
-    .hero-button .btn { 
+    .hero-button .btn {
         width: 100%;
         text-align: center;
     }
